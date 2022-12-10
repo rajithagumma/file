@@ -1,0 +1,6 @@
+file=open("people1.txt","r")
+file2=open("people2.txt","r")
+x=file.read()
+y=file2.read()
+a=zip(x,y)
+print(list(a))
